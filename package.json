@@ -1,13 +1,12 @@
 {
-  "name": "Hard-Hat-Tutorial",
+  "name": "hard-hat-tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chris",
   "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.1",
@@ -16,5 +15,18 @@
     "ethereum-waffle": "^3.2.1",
     "ethers": "^5.0.24",
     "hardhat": "^2.0.6"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HowToDefi/Hard-Hat-Tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HowToDefi/Hard-Hat-Tutorial/issues"
+  },
+  "homepage": "https://github.com/HowToDefi/Hard-Hat-Tutorial#readme",
+  "description": ""
 }
