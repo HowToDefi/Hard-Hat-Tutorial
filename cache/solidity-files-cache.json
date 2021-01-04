@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Development\\Hard-Hat-Tutorial\\contracts\\Token.sol": {
+      "lastModificationDate": 1609164097896,
+      "contentHash": "92587415496c88d877b8f054f512b55a",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "C:\\Development\\Hard-Hat-Tutorial\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1608813171727,
+      "contentHash": "c20b2460755f312099ccd61427237ded",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.8.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
